@@ -89,7 +89,7 @@ Configure no arquivo `package.json`:
 Após ter instalado o Docker em seu S.O., execute o comando:
 
 ```
-docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
 ```
 
 Instale as bibliotecas do Sequelize e para utilizar o PostgreSQL no Node.
